@@ -1,0 +1,24 @@
+{
+  "name": "zuperzee-bug1-panel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "ZuperZee",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "9.0.6",
+    "@grafana/toolkit": "9.0.6",
+    "@grafana/ui": "9.0.6",
+    "emotion": "10.0.27"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
